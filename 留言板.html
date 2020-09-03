@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="app">
+    <input type="text" v-model="msg">
+    <input type="button" value="添加留言" @click="add">
+
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    留言数：{{list.length}}
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+    <input type="button" value="全部删除" @click="del_all">
+    <br>
+
+    <span v-for="(bb,index) in list">
+        {{bb}}  <a href="javascript:;" @click="del(index)">删除</a>
+        <br>
+    </span>
+</div>
+
+<script src="js/vue.js"></script>
+<script>
+    new Vue({
+        el: "#app",
+        data: {
+            msg:"",
+            list: ["aa","bb"]
+        },
+        methods: {
+            add(){
+                let a=this.msg
+                if (a){
+                    this.list.unshift(this.msg);}
+                this.msg="";},
+            del(index){
+                this.list.splice(index,1)},
+
+            del_all(){
+                this.list=[]
+            }
+
+        }
+
+
+    })
+</script>
+</body>
+
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="app">
+
+    <span v-show="false">{{name}}</span>
+    <hr>
+    <span v-show="isShow">hello</span><br>
+    <input type="button" value="点我" @click="check_show">
+    <br>
+    <span v-if="false">好好学习</span>
+    <span v-else-if="false">he</span>
+    <span v-else>天天向上</span>
+
+
+</div>
+    <script src="js/vue.js"></script>
+    <script>
+        new Vue({
+            el:"#app",
+            data:{
+                name:"liucan",
+                isShow: false
+            },
+            methods:{
+                check_show(){
+                    this.isShow=!this.isShow
+                }
+            }
+        })
+    </script>
+    <script></script>
+</body>
+</html>

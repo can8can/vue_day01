@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .hello{
+            border: 10px red solid;
+        }
+    </style>
+
+</head>
+<body>
+<div id="app">
+    <img :src="src" alt="" :title="title" :class="{hello:isShow}">
+    <input type="button" @click="change_border" value="点点我">
+</div>
+
+
+<script src="js/vue.js"></script>
+<script>
+    new Vue({
+        el: "#app",
+        data: {
+            title: "好看",
+            src: "https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=3663359702,1992818410&fm=26&gp=0.jpg",
+            isShow: true,
+        },
+        methods:{
+            change_border(){
+                this.isShow=!this.isShow
+
+            }
+        }
+
+    })
+</script>
+
+</body>
+</html>

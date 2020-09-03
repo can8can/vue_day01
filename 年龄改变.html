@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="app">
+    现在      {{age}}    岁了..
+    <input type="button" value="增加一岁" @click="add">
+    <input type="button" value="减少一岁" @click="del">
+</div>
+<script src="js/vue.js"></script>
+<script>
+    new Vue({
+        el: "#app",
+        data:{
+            age: 22
+        },
+        methods: {
+            add(){
+                this.age++
+            },
+            del(){
+                this.age--
+            }
+        }
+    })
+</script>
+
+</body>
+</html>

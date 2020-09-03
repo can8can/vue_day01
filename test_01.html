@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>v-text/v-html</title>
+</head>
+<body>
+    <div id="app">
+
+        <span  v-text="message">好好学习，天天向上</span>
+        <hr>
+        <span v-html="message"></span>
+    </div>
+    <script src="js/vue.js"></script>
+    <script>
+        new Vue({
+            el: "#app",
+            data:{
+                message: "<a href=\"\">哈哈</a>",
+
+            }
+
+        })
+    </script>
+
+</body>
+</html>

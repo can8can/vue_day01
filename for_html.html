@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="app">
+
+    <h1 v-for="(value,key,i) in user">
+        {{value}}=={{key}}={{i}}
+    </h1>
+
+    <hr>
+
+    <h2 v-for="(aa,bb) in list">
+        {{bb}},{{aa}}
+    </h2>
+
+    <hr>
+    <ul>
+        <li v-for="(value,index) in df" :key="value.id">
+        {{value.id}}++{{value.name}}++{{value.content}}++{{index+1}}
+    </li>
+    </ul>
+
+</div>
+<script src="js/vue.js"></script>
+<script>
+    new Vue({
+        el:"#app",
+        data:{
+            user:{"11":"22","33":"44","55":"66"},
+            list:["ff","gg","hh","jj","kk"],
+            df:[{id: 1, name: "小黄", age: 23, content: "我是小黄"},
+                {id: 2, name: "小红", age: 23, content: "我是小红"},
+                {id: 3, name: "小绿", age: 23, content: "我是小绿"},],}
+
+
+
+
+    })
+</script>
+</body>
+</html>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bf61f970-cc4d-4873-a3bf-3d554373edeb" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1h06Ez1MP1WQkxmiNQLDci223eo" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/js" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\vue\js" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bf61f970-cc4d-4873-a3bf-3d554373edeb" name="Default Changelist" comment="" />
+      <created>1599135555489</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1599135555489</updated>
+      <workItem from="1599135557113" duration="37000" />
+      <workItem from="1599135930294" duration="31000" />
+      <workItem from="1599136271072" duration="32000" />
+      <workItem from="1599136370534" duration="7000" />
+      <workItem from="1599136491326" duration="3000" />
+      <workItem from="1599137004753" duration="48000" />
+      <workItem from="1599137122447" duration="10000" />
+      <workItem from="1599137461235" duration="281000" />
+      <workItem from="1599137763153" duration="211000" />
+      <workItem from="1599137994744" duration="193000" />
+      <workItem from="1599138230605" duration="126000" />
+      <workItem from="1599138388214" duration="432000" />
+      <workItem from="1599138881249" duration="1415000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="627" y="254" width="548" height="449" key="#Notifications" timestamp="1599139368018">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="627" y="254" width="548" height="449" key="#Notifications/0.0.1536.824@0.0.1536.824" timestamp="1599139368018" />
+    <state x="0" y="256" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1599136283262">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="0" y="256" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1599136283262" />
+    <state x="1098" y="334" key="FileChooserDialogImpl" timestamp="1599138625155">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="1098" y="334" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1599138625155" />
+    <state x="76" y="113" key="SettingsEditor" timestamp="1599139214998">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="76" y="113" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1599139214998" />
+  </component>
+</project>
